@@ -1,4 +1,4 @@
-# Visual UI Library Documentation
+# GALAXY X - HOW TO USE LIBRARY
 
 ## Getting Loadstring
 ```lua
