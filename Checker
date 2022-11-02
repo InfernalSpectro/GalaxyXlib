@@ -1,0 +1,29 @@
+
+local LocalPlayer = game.Players.LocalPlayer
+local TopBar = LocalPlayer.PlayerGui.Home.hud.Topbar
+if game.PlaceId == 155615604 then 
+     
+else
+	
+end
+
+--[[
+function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+counter = 0
+
+while wait(0.1)do
+ TopBar.titleBar.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+ 
+ counter = counter + 0.01
+end
+--]]
+local oldText = TopBar.titleBar.Title.Text
+
+TopBar.titleBar.Title.Text = oldText
+TopBar.titleBar.Title.TextStrokeTransparency = 0
+TopBar.titleBar.Title.Text = "Galaxy X - Loaded"
+wait(3)
+TopBar.titleBar.Title.Text = oldText
+
+
