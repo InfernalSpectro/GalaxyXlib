@@ -10,7 +10,7 @@ local HttpService = game:GetService('HttpService')
 -- // Variables
 getgenv().kms = false
 local Ihatethisui = {}
-local UIName = 'Visual UI Library | .gg/puxxCphTnK'
+local UIName = 'Galaxy Library'
 local Amount = 0
 local ConfigF
 local BreakAllLoops = false
